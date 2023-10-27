@@ -7,29 +7,29 @@
 // PART 1: Comparing variables
 // -------------------
 
-var numberTeachers = 4
-var numberStudents = 20
-var stringTeachers = "4"
-var numberDogs = 0
+// var numberTeachers = 4
+// var numberStudents = 20
+// var stringTeachers = "4"
+// var numberDogs = 0
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
+// console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
 
-console.log("Is numberTeachers strictly equal to numberStudents?", numberTeachers === numberStudents);
+// console.log("Is numberTeachers strictly equal to numberStudents?", numberTeachers === numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
 
-console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
+// console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
 
-console.log("Is numberTeachers greater than or equal to 21?", numberTeachers >= 21);
+// console.log("Is numberTeachers greater than or equal to 21?", numberTeachers >= 21);
 
 
 // #-------------------
@@ -38,15 +38,17 @@ console.log("Is numberTeachers greater than or equal to 21?", numberTeachers >= 
 
 // For the following prompts, you will be given a line of code and your task is to type out a comment,in English, explaining what that line of code is doing, including what the comparison will evaluate to.
 
-// var friends = 6;
-// var siblings = 2;
-// console.log(friends > siblings);
+var friends = 6;
+var siblings = 2;
+console.log(friends > siblings);
 // YOU DO: Explain.
+// This is asking if the number of friends is greater than the number of siblings and it will evaluate to true.
 
-// var attendees = 9;
-// var meals = 8;
-// console.log(attendees !== meals);
+var attendees = 9;
+var meals = 8;
+console.log(attendees !== meals);
 // YOU DO: Explain.
+// This is asking if the number of attendees is not strictly equal to the number of meals and it will evaluate to true.
 
 
 // #-------------------
