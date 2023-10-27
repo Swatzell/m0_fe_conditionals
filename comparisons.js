@@ -38,15 +38,15 @@
 
 // For the following prompts, you will be given a line of code and your task is to type out a comment,in English, explaining what that line of code is doing, including what the comparison will evaluate to.
 
-var friends = 6;
-var siblings = 2;
-console.log(friends > siblings);
+// var friends = 6;
+// var siblings = 2;
+// console.log(friends > siblings);
 // YOU DO: Explain.
 // This is asking if the number of friends is greater than the number of siblings and it will evaluate to true.
 
-var attendees = 9;
-var meals = 8;
-console.log(attendees !== meals);
+// var attendees = 9;
+// var meals = 8;
+// console.log(attendees !== meals);
 // YOU DO: Explain.
 // This is asking if the number of attendees is not strictly equal to the number of meals and it will evaluate to true.
 
@@ -55,26 +55,29 @@ console.log(attendees !== meals);
 // PART 3: Logical Operators
 // #-------------------
 
-// var isHungry = true;
-// var finishedHomework = false;
+var isHungry = true;
+var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-// console.log(isHungry && finishedHomework);
+console.log(isHungry && finishedHomework);
 // Determine if the user is hungry or has completed their homework
-// console.log(isHungry || finishedHomework);
+console.log(isHungry || finishedHomework);
 
-// var lovesToPlay = true;
-// var lovesDogPark = false;
-// var lovesTreats = true;
-// var age = 1;
+var lovesToPlay = true;
+var lovesDogPark = false;
+var lovesTreats = true;
+var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
 
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
+console.log(lovesToPlay || lovesDogPark);
 
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
 // HINT: Use the age variable and assume that a puppy is less than 2 years old
+console.log(age < 2 && lovesToPlay === true)
