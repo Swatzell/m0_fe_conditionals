@@ -19,11 +19,17 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
 
+console.log("Is numberTeachers strictly equal to numberStudents?", numberTeachers === numberStudents);
+
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
 
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
+
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+
+console.log("Is numberTeachers greater than or equal to 21?", numberTeachers >= 21);
 
 
 // #-------------------
@@ -32,14 +38,14 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // For the following prompts, you will be given a line of code and your task is to type out a comment,in English, explaining what that line of code is doing, including what the comparison will evaluate to.
 
-var friends = 6;
-var siblings = 2;
-console.log(friends > siblings);
+// var friends = 6;
+// var siblings = 2;
+// console.log(friends > siblings);
 // YOU DO: Explain.
 
-var attendees = 9;
-var meals = 8;
-console.log(attendees !== meals);
+// var attendees = 9;
+// var meals = 8;
+// console.log(attendees !== meals);
 // YOU DO: Explain.
 
 
@@ -47,19 +53,19 @@ console.log(attendees !== meals);
 // PART 3: Logical Operators
 // #-------------------
 
-var isHungry = true;
-var finishedHomework = false;
+// var isHungry = true;
+// var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-console.log(isHungry && finishedHomework);
+// console.log(isHungry && finishedHomework);
 // Determine if the user is hungry or has completed their homework
-console.log(isHungry || finishedHomework);
+// console.log(isHungry || finishedHomework);
 
-var lovesToPlay = true;
-var lovesDogPark = false;
-var lovesTreats = true;
-var age = 1;
+// var lovesToPlay = true;
+// var lovesDogPark = false;
+// var lovesTreats = true;
+// var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
